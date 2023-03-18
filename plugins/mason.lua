@@ -13,7 +13,24 @@ return {
     "jay-babu/mason-null-ls.nvim",
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
-      -- ensure_installed = { "prettier", "stylua" },
+      ensure_installed = {
+        "cspell",
+        "cssmodules-language-serve",
+        "eslint-lsp",
+        "json-lsp",
+        "lua-language-server",
+        "markdownlint",
+        "prettier",
+        "rubocop",
+        "ruby-lsp",
+        "solargraph",
+        "spectral-language-server",
+        "stylelint-lsp",
+        "terraform-ls",
+        "textlint",
+        "tflint",
+        "typescript-language-serve",
+      },
     },
   },
   {

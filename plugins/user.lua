@@ -9,4 +9,10 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  { "github/copilot.vim" },
+  { "godlygeek/tabular" },
+  { "preservim/vim-markdown" },
+  { 'dsznajder/vscode-es7-javascript-react-snippets', run = 'yarn install --frozen-lockfile && yarn compile' }, -- https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+  { 'junegunn/vim-easy-align' },
+  { "andweeb/presence.nvim" },
 }
