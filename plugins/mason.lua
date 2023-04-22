@@ -14,7 +14,6 @@ return {
     -- overrides `require("mason-null-ls").setup(...)`
     opts = {
       ensure_installed = {
-        "cspell",
         "cssmodules-language-serve",
         "eslint-lsp",
         "json-lsp",
@@ -27,7 +26,6 @@ return {
         "spectral-language-server",
         "stylelint-lsp",
         "terraform-ls",
-        "textlint",
         "tflint",
         "typescript-language-serve",
       },
