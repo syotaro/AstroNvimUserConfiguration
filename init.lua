@@ -16,13 +16,16 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
+
   -- Set colorscheme to use
   colorscheme = "astrodark",
+
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
     underline = true,
   },
+
   lsp = {
     -- customize lsp formatting options
     formatting = {
@@ -50,6 +53,7 @@ return {
       -- "pyright"
     },
   },
+
   -- Configure require("lazy").setup() options
   lazy = {
     defaults = { lazy = true },
@@ -60,6 +64,7 @@ return {
       },
     },
   },
+
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
@@ -78,3 +83,4 @@ return {
     -- }
   end,
 }
+
